@@ -1,0 +1,111 @@
+body{
+    @media (max-width: 768px) {
+        .header {
+          font-size: 16px;
+        }
+        .content {
+          font-size: 14px;
+        }
+      }
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:gray;
+}
+
+main{
+    padding: 20px;
+}
+
+form{
+    display: inline-block;
+    margin-top: 20px;
+    text-align: left;
+}
+
+label{
+    display: block;
+    margin: 30px 0 5px;
+}
+
+input, select, button{
+    cursor:auto;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background: linear-gradient(to bottom, rgb(42, 165, 142), rgb(175, 255, 175));
+    
+}
+
+button{
+    padding: 15px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 2);
+    transition: all 0.3s ease;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+   background: linear-gradient(to right, black, purple);
+    color: rgb(240, 201, 129); 
+}
+
+
+
+#result{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu{
+    background: linear-gradient(to right, purple, rgb(0, 0, 0));
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    
+}
+.paragraph{
+    border-left: solid;
+    border-right: solid;
+    border-color: white;
+    
+    padding: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+.main-header{
+    background: linear-gradient(to right, rgb(0, 0, 0), purple);
+    text-align: center;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.menu-link1{
+    text-decoration: underline;
+    margin-right: 5px;
+    color:wheat;
+    font-weight: bold;
+    font-size: 15px;
+}
+.menu-link2{
+    text-decoration: underline;
+    margin-right: 5px;
+    color:wheat;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.menu-link1:hover{
+    text-decoration: none;
+    
+}
+.menu-link2:hover{
+    text-decoration: none;
+
+}
+
+.background{
+    background: yellow;
+}
+
