@@ -16,7 +16,7 @@ This project is aimed at practicing and demonstrating mastery of concepts such a
 To get started with the Akan Name Generator, follow these steps:
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone : git@github.com:imk001/Akan-name-generator.git
 
 ## BDD (Behavior Driven Development)
 User Stories
